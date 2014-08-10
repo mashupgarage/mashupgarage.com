@@ -1,0 +1,72 @@
+* {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body { background: #FFF; margin: 0; padding: 0; font-size: 14px; font-weight: 500; }
+.full-container.container-fluid { padding: 0; }
+.hero {
+  margin: 0;
+  padding: 20px 0 120px 0;
+  /*http://www.stocksy.com/175098*/
+  background: linear-gradient(to bottom, #D33B3B, rgba(168, 26, 71, 0.68)), url(http://cdn0.stocksy.com/a/AYj000/z0/175098.jpg);
+  background-image: rgba(0,0,0,0.5);
+  background-size: cover;
+}
+
+.hero .content { text-align: center; padding: 40px; font-family: proxima-nova, sans-serif;  }
+.hero h1 { font-size: 4em; font-weight: 100; color: white; text-decoration: none; padding-top: 50px; }
+
+.header img { width: 180px; }
+.header .subtitle { font-size: 1.2em; color: white; font-weight: 100; }
+
+.section-header { text-align: center; font-weight: 500; color: #636363; font-size: 2em; padding: 20px 0 }
+.section-header h2 { margin-top: 8px; }
+.section-header p { font-size: 16px; }
+.section-header .icon { font-size: 48px; }
+
+.feature { text-align: center }
+.feature h2 { font-weight: 700; font-size: 1em; color: rgb(142, 146, 31); text-align: center; text-transform: uppercase; }
+.feature p { font-size: 1.2em; text-align: justify; }
+
+.full-container.container-fluid.team { background: #464646; background: #399ECE; margin-top: 40px; padding: 20px 0 40px; }
+
+.team .icon { color: white }
+
+.separator { height: 3px; width: 400px; background-color: rgb(241, 241, 241); margin: 20px auto; }
+.team h2, .team p  { color: white }
+.who-we-are p { font-size: 1.2em; }
+
+p.fine-print { font-size: .9em; color: gray }
+.icons { text-align: center; }
+.icons img { width: 48px; margin-right: 10px; }
+
+.action { text-align: center; margin-top: 30px; }
+.btn-link { display: inline-block; text-align: center; padding: 8px 30px; border: 1px solid white; border-radius: 4px; color: white; font-size: 1.2em; }
+
+.btn-link:hover { border-color: black; background-color: black; color: white; text-decoration: none; }
+.btn-link.inverse { border-color: black; color: black; }
+.btn-link.inverse:hover { border-color: black; color: black; color: white; }
+
+.showcase .showcase-items { text-align: center }
+.showcase .showcase-item .showcase-img { margin-right: 10px;  }
+.showcase .showcase-item img { border: 2px solid rgb(16, 108, 145); width: 340px; }
+.showcase .showcase-item { }
+.showcase .showcase-item h3 { font-size: 1.2em; font-weight: bold; padding: 0; margin: 10px 0 0; }
+
+.philosophy { width: 70%; margin: 0 auto; }
+
+.articles { width: 60%; margin: 0 auto; }
+.articles ul.posts { text-align: center; list-style: none; padding: 0; margin: 0; }
+.articles ul.posts li a { color: black; font-size: 1.5em; }
+
+.learn-more { background: #EEE; padding-bottom: 50px }
+.separator.thin { margin: 0 auto 20px auto;  background-color: #AAA; height: 1px; width: 200px; }
+
+.contact-us { background: white; text-align: center; padding-bottom: 80px; }
+
+.contact-us .contact-email { font-size: 1.5em }
+.contact-us .contact-email { font-size: 1.5em }
+
+.footer { background: black; color: white; padding: 20px 0; }
