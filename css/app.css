@@ -49,6 +49,8 @@ p.fine-print { font-size: .9em; color: gray }
 .btn-link.inverse { border-color: black; color: black; }
 .btn-link.inverse:hover { border-color: black; color: black; color: white; }
 
+.header .btn-link.small { padding: 6px 18px; font-size: 1.2em; font-weight: bold; border: 0;}
+
 .showcase .showcase-items { text-align: center }
 .showcase .showcase-item .showcase-img { margin-right: 10px;  }
 .showcase .showcase-item img { border: 2px solid rgb(16, 108, 145); width: 340px; }
