@@ -2,7 +2,7 @@
 layouts: ./_/layouts
 destination: ./_/site
 sass:
-  sass_dir: ./_/sass
+  sass_dir: ./assets/sass
 
 # Markdown
 highlighter: pygments

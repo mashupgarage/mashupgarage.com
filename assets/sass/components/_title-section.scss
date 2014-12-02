@@ -1,0 +1,14 @@
+.title-section {
+  & {
+    padding: 200px 0;
+  }
+
+  h1 {
+    @include heavy-type;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.4;
+  }
+}
