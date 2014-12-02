@@ -3,3 +3,8 @@
   font-weight: 800;
 }
 
+@mixin italic-type {
+  font-family: 'adelle sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}

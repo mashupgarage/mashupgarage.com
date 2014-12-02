@@ -20,11 +20,13 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: "default"
 
 meta:
   name: "Mashupgarage"
+
+ignore: ['_', '_src']

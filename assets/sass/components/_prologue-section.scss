@@ -1,0 +1,23 @@
+.prologue-section {
+  & {
+    padding: 150px 0;
+  }
+
+  p {
+    margin: 40px 0;
+  }
+
+  .pullquote {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+    @include italic-type;
+    margin: 50px -90px;
+    line-height: 1.5;
+  }
+}
+
+.container.-slim {
+  max-width: 600px;
+  margin: 0 auto;
+}

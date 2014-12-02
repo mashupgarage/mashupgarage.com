@@ -3,7 +3,15 @@
 }
 
 body, td, textarea, input {
-  line-height: 1.5;
+  line-height: 1.7;
   font-family: 'clear sans', sans-serif;
   font-size: 1em;
+}
+
+html {
+  font-size: 19px;
+}
+
+body {
+  color: $black;
 }

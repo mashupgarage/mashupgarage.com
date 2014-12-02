@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="974px" height="319px" viewBox="0 0 974 319" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" stroke="#979797" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="301" y="14" width="368.431473" height="258.152665" rx="10"></rect>
+            <path d="M690,182.153501 C690,182.153501 690,186.628396 690,192.151958 L690,302.155044 C690,307.67704 694.486624,312.153501 700.003701,312.153501 L872.996299,312.153501 C878.52119,312.153501 883,307.681108 883,302.154338 L883,181.152665" id="Rectangle-2" sketch:type="MSShapeGroup" transform="translate(786.500000, 246.653083) scale(1, -1) translate(-786.500000, -246.653083) "></path>
+            <path d="M302,236 L668.000008,236" id="Line" sketch:type="MSShapeGroup"></path>
+            <g id="Line-+-Line-2" sketch:type="MSLayerGroup" transform="translate(849.000000, 192.000000)">
+                <path d="M8.5,0.5 L23.0086184,15.0086184" id="Line" sketch:type="MSShapeGroup"></path>
+                <path d="M0.5,0.5 L24.0212669,24.0212669" id="Line" sketch:type="MSShapeGroup"></path>
+            </g>
+            <path d="M874.011361,191 L698.000008,191" id="Line-3" sketch:type="MSShapeGroup"></path>
+            <path d="M444,272.5 L438.5,291.152174 C438.5,291.152174 436,300.195652 425.5,311.5" id="Path-10" sketch:type="MSShapeGroup"></path>
+            <path d="M542,272 L536.5,290.891304 C536.5,290.891304 534,300.050725 523.5,311.5" id="Path-11" sketch:type="MSShapeGroup" transform="translate(532.750000, 291.750000) scale(-1, 1) translate(-532.750000, -291.750000) "></path>
+            <path d="M475.5,25 L488.509612,25 C488.509612,25 492,25 492,27.5" id="Path-11" sketch:type="MSShapeGroup"></path>
+            <path d="M780.5,302 L793.509612,302 C793.509612,302 797,302 797,304.5" id="Path-13" sketch:type="MSShapeGroup"></path>
+            <path d="M475.5,247.5 L491.507811,247.5 C491.507811,247.5 498.5,247.5 498.5,253.5 C498.5,259.5 492.744568,259.255432 492.744568,259.255432" id="Path-12" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-6" sketch:type="MSShapeGroup" x="386" y="312" width="193" height="7" rx="2"></rect>
+            <rect id="Rectangle-8" sketch:type="MSShapeGroup" transform="translate(116.000000, 313.000000) scale(-1, 1) translate(-116.000000, -313.000000) " x="76" y="307" width="80" height="12" rx="2"></rect>
+            <path d="M235.000002,285.85191 L235.000002,294.247917 C235.000002,294.247917 232.482219,309.263345 250.241409,309.263342 C268.0006,309.26334 344.178948,309.263342 344.178948,309.263342 C344.178948,309.263342 363.000084,308.398704 363,290.721346 C362.999951,280.43336 362.999997,276 362.999997,276" id="Path-24" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-7" sketch:type="MSShapeGroup" x="667" y="312" width="240" height="7" rx="2"></rect>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(910.000000, 181.000000)">
+                <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="1" y="0" width="51" height="105" rx="8"></rect>
+                <g id="Line-+-Line" transform="translate(31.000000, 13.000000)" sketch:type="MSShapeGroup">
+                    <path d="M9,0 L15.0086184,6.00861835" id="Line"></path>
+                    <path d="M0,0 L15.0212669,15.0212669" id="Line"></path>
+                </g>
+                <path d="M0.876559496,13 L51.8765595,13" id="Line" sketch:type="MSShapeGroup"></path>
+                <path d="M0.876559496,90 L51.8765595,90" id="Line-4" sketch:type="MSShapeGroup"></path>
+                <path d="M19,7 L34.008331,7" id="Path-18" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(89.500000, 197.000000)">
+                <rect id="Rectangle-3" sketch:type="MSShapeGroup" x="1" y="0" width="51" height="105" rx="8"></rect>
+                <circle id="Oval-1" sketch:type="MSShapeGroup" cx="26.5" cy="97.5" r="3.5"></circle>
+                <g id="Line-+-Line" transform="translate(31.000000, 13.000000)" sketch:type="MSShapeGroup">
+                    <path d="M9,0 L15.0086184,6.00861835" id="Line"></path>
+                    <path d="M0,0 L15.0212669,15.0212669" id="Line"></path>
+                </g>
+                <path d="M0.876559496,13 L51.8765595,13" id="Line" sketch:type="MSShapeGroup"></path>
+                <path d="M0.876559496,90 L51.8765595,90" id="Line-4" sketch:type="MSShapeGroup"></path>
+                <path d="M19,7 L34.008331,7" id="Path-18" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="iPad" sketch:type="MSLayerGroup" transform="translate(185.000000, 135.000000)">
+                <rect id="outline" sketch:type="MSShapeGroup" x="0" y="0" width="98" height="150" rx="8"></rect>
+                <circle id="power" sketch:type="MSShapeGroup" cx="49.5" cy="142.5" r="3.5"></circle>
+                <g id="sheen" transform="translate(66.000000, 15.000000)" sketch:type="MSShapeGroup">
+                    <path d="M8.5,0.5 L23.0086184,15.0086184" id="Line"></path>
+                    <path d="M0.5,0.5 L24.0212669,24.0212669" id="Line"></path>
+                </g>
+                <path d="M1,14.5 L94,14.5" id="screen-top" sketch:type="MSShapeGroup"></path>
+                <path d="M4.5,134.5 L97,134.5" id="screen-bottom" sketch:type="MSShapeGroup"></path>
+            </g>
+            <path d="M147,298 L179.842536,298 C179.842536,298 184.693845,298.520027 187.725912,303.760013 C190.75798,309 196.822116,309.7833 196.822116,309.7833 L232.027709,309.7833" id="iPhone-cabe" sketch:type="MSShapeGroup"></path>
+            <path d="M912.5,315.5 L929.007574,315.5 C929.007574,315.5 936.5,314 936.5,308 L936.5,286" id="Android-cable" sketch:type="MSShapeGroup"></path>
+            <rect id="Home" sketch:type="MSShapeGroup" x="930" y="276" width="12" height="5" rx="2"></rect>
+            <g id="Mouse" sketch:type="MSLayerGroup" transform="translate(605.000000, 299.000000)">
+                <path d="M0.0256271281,12.2045455 C0.0256271281,12.2045455 -1.42891833,19.75 6.57108167,19.75 C14.5710817,19.75 27.2349526,19.8669165 35.6330847,19.8669165 C44.0312168,19.8669165 43.0000012,11.5 43.0000012,11.5 C43.0000012,11.5 39.0976754,8.83190807e-07 21.4811394,0 C3.86460339,-8.83190808e-07 0.0256271281,12.2045455 0.0256271281,12.2045455 Z" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

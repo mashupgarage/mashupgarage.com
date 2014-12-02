@@ -1,21 +1,23 @@
 ---
 ---
 
+$blacker: #111;
+$black: #404040;
+$cyan: #9AD3DB;
+$red: #d99292;
+$gray: #789;
+
 @import url('http://brick.a.ssl.fastly.net/Clear+Sans:400,700');
 
-// include:start ./utils/*
 @import './utils/global-reset';
 @import './utils/ionicons';
 @import './utils/type';
-// include:end ./utils/*
 
-// include:start ./base/*
 @import './base/antialias';
 @import './base/base';
-// include:end ./base/*
 
-// include:start ./components/*
+@import './components/illo-screens';
 @import './components/title-section';
-// include:end ./components/*
+@import './components/prologue-section';
 
 @include ion-font;
