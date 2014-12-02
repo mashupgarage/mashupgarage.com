@@ -29,4 +29,5 @@ kramdown:
 meta:
   name: "Mashupgarage"
 
-ignore: ['_', '_src', 'Makefile', 'Procfile', 'vendor']
+#  https://github.com/jekyll/jekyll/issues/2938
+exclude: [README.md, vendor, Gemfile, Gemfile.lock, Procfile, config.ru, lib, bin, tmp]
