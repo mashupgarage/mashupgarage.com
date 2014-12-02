@@ -1,5 +1,9 @@
-* {
+@mixin antialias {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+* {
+  @include antialias;
 }

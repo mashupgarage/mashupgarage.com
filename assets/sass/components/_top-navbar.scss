@@ -24,6 +24,8 @@
   .logo .type {
     & {
       transform: translate(-180px, 21px);
+      background: white;
+      box-shadow: -20px 0 white, 20px 0 white;
       opacity: 0;
     }
 
@@ -97,7 +99,7 @@
 
   .logo .type {
     & {
-      opacity: 0;
+      opacity: 0; /* :( */
     }
   }
 }

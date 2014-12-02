@@ -18,10 +18,8 @@
   }
 
   h3 {
-    font-family: 'input sans', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    @include caps-type;
+
     text-align: center;
     font-size: 0.9em;
     text-align: center;

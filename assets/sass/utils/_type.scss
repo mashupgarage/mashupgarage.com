@@ -15,3 +15,11 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@mixin caps-type {
+  font-family: 'input sans', menlo, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

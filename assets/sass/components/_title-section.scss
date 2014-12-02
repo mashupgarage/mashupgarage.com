@@ -10,6 +10,14 @@
     position: relative;
   }
 
+  h5 {
+    @include caps-type;
+    color: $hotred;
+    text-align: center;
+    font-size: 0.9em;
+    margin: 10px auto;
+  }
+
   h1 {
     @include heavy-type;
     max-width: 800px;

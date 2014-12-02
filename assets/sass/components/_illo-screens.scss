@@ -7,11 +7,13 @@
 }
 
 .animated #illo-screens {
+  $count: 1;
   .s2 rect,
   .s2 path,
   .s2 circle {
     stroke: $cyan;
     animation: lol 7000ms ease infinite normal;
+    animation-iteration-count: $count;
   }
 
   .s3 rect,
@@ -19,6 +21,7 @@
   .s3 circle {
     stroke: $red;
     animation: lol2 11000ms ease infinite normal;
+    animation-iteration-count: $count;
   }
 
   .s4 rect,
@@ -26,6 +29,7 @@
   .s4 circle {
     stroke: $gray;
     animation: lol2 16000ms ease infinite normal;
+    animation-iteration-count: $count;
   }
 }
 
@@ -55,6 +59,7 @@
   }
   100% {
     stroke-dasharray: 0% 100%;
-    stroke-dashoffset: 0%;
+    stroke-dashoffset: -100%;
+    opacity: 0;
   }
 }
