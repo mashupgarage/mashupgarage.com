@@ -29,4 +29,4 @@ kramdown:
 meta:
   name: "Mashupgarage"
 
-ignore: ['_', '_src', 'Makefile', 'Procfile']
+ignore: ['_', '_src', 'Makefile', 'Procfile', 'vendor']
