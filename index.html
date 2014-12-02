@@ -6,8 +6,11 @@
   <meta charset="utf-8">
   <title>Mashup Garage</title>
   <link href="assets/style.css" rel="stylesheet" />
+  <link href="//cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.css" rel='stylesheet' />
   <script src="//use.typekit.net/eua3hdw.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+  <script src="//cdn.rawgit.com/matthieua/WOW/1.0.2/dist/wow.min.js"></script>
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 
@@ -20,26 +23,35 @@
       <g class='s1'>
         {% include illo-screens.html %}
       </g>
-      <g class='s2'>
-        {% include illo-screens.html %}
-      </g>
-      <g class='s3'>
-        {% include illo-screens.html %}
-      </g>
-      <g class='s4'>
-        {% include illo-screens.html %}
-      </g>
     </svg>
+
+    <div class='wow' data-wow-offset="500">
+      <svg id='illo-screens' viewBox="0 0 974 319"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <g class='s2'>
+          {% include illo-screens.html %}
+        </g>
+        <g class='s3'>
+          {% include illo-screens.html %}
+        </g>
+        <g class='s4'>
+          {% include illo-screens.html %}
+        </g>
+      </svg>
+    </div>
   </section>
 
   <section class='prologue-section'>
     <div class='container -slim'>
-      <p>Now, we are not softly hot, but the rhyme and reason is African. The car wasn't nothing. The Yugoslavian letter is never strong while they are not shaded today.</p>
-      <p>A land is changing a repulsive producer to a donkey, and then they can't drive themselves to green ants. They were not chocolates. Heavily, it was never powerful, however, the state of emergency was not wonderfully sensational and the coyote. They won't give great outdoors for fresh lands with a garden-fresh salad.</p>
-      <p class='pullquote'>A damp fish was not me. A hot road will be you in addition to a badger.</p>
-      <p>A dragonfly is last affirmative. We will be orange, however, the moment of clarity will be optical or himself off the star. They did use great outdoors of a submissive chair. The evil eye did speak the greasy eel to the four-wheel drive on top of the green light. Cheerfully, the park will be massively itself.</p>
-      <p>Past a night, a snail followed. The gerbil did allow a mouse for you. We had them. We will be terrible eventually. We are not bland and blue today, and then the fast dog is following opposite the whale.</p>
+      <p class='wow fadeIn'>Now, we are not softly hot, but the rhyme and reason is African. The car wasn't nothing. The Yugoslavian letter is never strong while they are not shaded today.</p>
+      <p class='wow fadeIn'>A land is changing a repulsive producer to a donkey, and then they can't drive themselves to green ants. They were not chocolates. Heavily, it was never powerful, however, the state of emergency was not wonderfully sensational and the coyote. They won't give great outdoors for fresh lands with a garden-fresh salad.</p>
+      <p class='wow fadeInUp pullquote'>We have ideas to make people's lives better, and we're not afraid to build them.</p>
+      <p class='wow fadeIn'>A dragonfly is last affirmative. We will be orange, however, the moment of clarity will be optical or himself off the star. They did use great outdoors of a submissive chair. The evil eye did speak the greasy eel to the four-wheel drive on top of the green light. Cheerfully, the park will be massively itself.</p>
+      <p class='wow fadeIn'>Past a night, a snail followed. The gerbil did allow a mouse for you. We had them. We will be terrible eventually. We are not bland and blue today, and then the fast dog is following opposite the whale.</p>
     </div>
   </section>
+
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>
