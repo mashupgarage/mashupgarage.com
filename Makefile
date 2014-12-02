@@ -2,7 +2,7 @@
 # make start      - start server (dev)
 
 PORT ?= 3000
-bundle := env BUNDLE_GEMFILE=./_/Gemfile bundle
+bundle := env bundle
 
 all: bundle
 	${bundle} exec jekyll build --drafts
