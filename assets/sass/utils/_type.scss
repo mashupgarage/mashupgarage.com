@@ -1,10 +1,17 @@
 @mixin heavy-type {
-  font-family: 'futura pt', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 800;
+  font-style: normal;
 }
 
 @mixin italic-type {
-  font-family: 'adelle sans', sans-serif;
+  font-family: 'adelle-sans', sans-serif;
   font-weight: 400;
   font-style: italic;
+}
+
+@mixin sans-type {
+  font-family: 'aktiv-grotesk-std', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

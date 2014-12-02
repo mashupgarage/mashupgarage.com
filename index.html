@@ -7,23 +7,54 @@
   <title>Mashup Garage</title>
   <link href="assets/style.css" rel="stylesheet" />
   <link href="//cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.css" rel='stylesheet' />
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="//use.typekit.net/eua3hdw.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
   <script src="//cdn.rawgit.com/matthieua/WOW/1.0.2/dist/wow.min.js"></script>
+  <script src="/assets/script.js"></script>
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 
+  <!--
+   ! navigation bar
+   !-->
+  
+  <section class='top-navbar'>
+    <div class='logo'>
+      <div class='type'>
+        <img src='/assets/logo/light-type.svg'>
+      </div>
+      <div class='symbol'>
+        <img src='/assets/logo/light-symbol.svg'>
+      </div>
+    </div>
+  </section>
+
+  <!--
+   ! title section
+   !-->
+  
   <section class='title-section'>
-    <h1 class='opening'>
-      A claustrophobic number colored you to a hereditary dominion with a British bug. The shaky aviator was gently innocent, and then it was not violet on account of the bee.
-    </h1>
+    <div class='text wow fadeIn' data-wow-delay='500ms'>
+      <h1 class='opening'>
+        A claustrophobic number colored you to a hereditary dominion with a British bug. The shaky aviator was gently innocent, and then it was not violet on account of the bee.
+      </h1>
+
+      <p class='action'>
+        <a class='button'>I'm a button</a>
+      </p>
+    </div>
 
     <svg id='illo-screens' viewBox="0 0 974 319"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
       <g class='s1'>
         {% include illo-screens.html %}
       </g>
     </svg>
+
+    <div class='type wow fadeIn' data-wow-delay='1000ms'>
+      <img src='/assets/logo/light-type.svg'>
+    </div>
 
     <div class='wow' data-wow-offset="500">
       <svg id='illo-screens' viewBox="0 0 974 319"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
@@ -40,8 +71,13 @@
     </div>
   </section>
 
+  <!--
+   ! prologue
+   !-->
+  
   <section class='prologue-section'>
     <div class='container -slim'>
+      <h3>Our story begins here</h3>
       <p class='wow fadeIn'>Now, we are not softly hot, but the rhyme and reason is African. The car wasn't nothing. The Yugoslavian letter is never strong while they are not shaded today.</p>
       <p class='wow fadeIn'>A land is changing a repulsive producer to a donkey, and then they can't drive themselves to green ants. They were not chocolates. Heavily, it was never powerful, however, the state of emergency was not wonderfully sensational and the coyote. They won't give great outdoors for fresh lands with a garden-fresh salad.</p>
       <p class='wow fadeInUp pullquote'>We have ideas to make people's lives better, and we're not afraid to build them.</p>
@@ -50,8 +86,14 @@
     </div>
   </section>
 
-  <script>
-    new WOW().init();
-  </script>
+  <!--
+   ! process
+   !-->
+
+  <section class='process-section'>
+    <div class='container -slim'>
+    </div>
+  </section>
+
 </body>
 </html>

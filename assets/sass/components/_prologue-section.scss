@@ -10,11 +10,23 @@
 
   .pullquote {
     font-size: 2em;
-    color: red;
+    color: $hotred;
     text-align: center;
     @include italic-type;
     margin: 50px -90px;
     line-height: 1.5;
+  }
+
+  h3 {
+    font-family: 'input sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 0.9em;
+    text-align: center;
+    color: $blacker;
+    margin: 0 auto -20px auto;
   }
 }
 

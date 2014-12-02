@@ -2,10 +2,11 @@
 ---
 
 $blacker: #111;
-$black: #404040;
+$black: lighten(#585862, 10%);
 $cyan: #9AD3DB;
 $red: #d99292;
 $gray: #789;
+$hotred: #f11;
 
 @import url('http://brick.a.ssl.fastly.net/Clear+Sans:400,700');
 
@@ -17,7 +18,9 @@ $gray: #789;
 @import './base/base';
 
 @import './components/illo-screens';
+@import './components/top-navbar';
 @import './components/title-section';
+@import './components/process-section';
 @import './components/prologue-section';
 
 @include ion-font;
