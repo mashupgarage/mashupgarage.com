@@ -37,13 +37,6 @@
     position: relative;
     z-index: 20;
   }
-  
-  .action {
-    text-align: center;
-    margin-top: 30px;
-
-    display: none;
-  }
 
   .button {
     display: inline-block;
@@ -77,5 +70,23 @@
     height: 100px / $ratio;
 
     margin-left: -50px;
+  }
+
+  .actions {
+    position: absolute;
+    left: 50%;
+    bottom: 170px;
+    width: 300px;
+    margin-left: -150px;
+    text-align: center;
+  }
+
+  .actions .button {
+    background: white;
+    border: solid 2px $hotred;
+    display: inline-block;
+    border-radius: 2px;
+    @include heavy-type;
+    color: $hotred;
   }
 }
