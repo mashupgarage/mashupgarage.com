@@ -1,5 +1,46 @@
 .colophon-section {
-  padding: 350px 0;
   $slatebg: saturate(darken($gray, 40%), 15%);
   background: $slatebg;
+  background:
+    linear-gradient(to bottom, rgba($slatebg, 0.99) 50%, rgba($slatebg, 0.95)),
+    url('https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&w=1080&h=1080&fit=max&fm=jpg&s=b24c3a8c3404a869339793aa8b2f6d45') center center / cover,
+    $slatebg;
+
+  .container {
+    padding: 300px 0 200px 0;
+    overflow: hidden;
+  }
+
+  .contact {
+    font-size: 0.8em;
+    text-align: right;
+    float: left;
+    width: 45%;
+  }
+
+  .logo {
+    float: right;
+    width: 45%;
+  }
+
+  .logo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px 40px 0;
+    width: 100px;
+  }
+
+  .contact h2 {
+    @include heavy-type;
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .contact .email {
+    color: white;
+  }
+
+  .contact em {
+    margin-left: 5px;
+  }
 }
