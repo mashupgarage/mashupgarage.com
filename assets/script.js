@@ -11,4 +11,5 @@ $(function () {
 
 $(function () {
   new WOW({ offset: 100 }).init();
+  $('.fixed-nav').midnight();
 });

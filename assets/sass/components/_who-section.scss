@@ -79,6 +79,9 @@
     box-shadow:
       -4px 4px rgba($hotred, 0.4),
       8px -8px rgba($cyan, 0.4);
+
+    position: relative;
+    z-index: 50;
   }
 
   .avatar,

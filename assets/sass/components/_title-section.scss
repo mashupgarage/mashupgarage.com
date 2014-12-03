@@ -29,12 +29,9 @@
   }
 
   .text {
-    margin-top: 220px;
+    margin-top: 120px;
     margin-bottom: 10px;
     padding: 30px;
-
-    background: white;
-    box-shadow: 0 0 40px 20px white;
 
     position: relative;
     z-index: 20;
@@ -62,17 +59,28 @@
     height: $size / $ratio;
   }
   
-  .type img {
+  $size: 90px;
+
+  .logo {
     position: absolute;
     left: 50%;
-    bottom: 300px;
-
-    $ratio: 135/73;
-    $size: 90px;
-    width: $size;
-    height: $size / $ratio;
-
+    bottom: 170px;
     margin-left: -0.5 * $size;
+  }
+
+  .logo img {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .logo .type {
+    width: $size;
+    height: $size / (135 / 73);
+  }
+
+  .logo .symbol {
+    width: $size;
+    height: $size;
   }
 
   .actions {

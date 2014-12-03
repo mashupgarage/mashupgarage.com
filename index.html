@@ -11,6 +11,7 @@
   <script src="//use.typekit.net/eua3hdw.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
   <script src="//cdn.rawgit.com/matthieua/WOW/1.0.2/dist/wow.min.js"></script>
+  <script src="//cdn.rawgit.com/Aerolab/midnight.js/1.0.4/midnight.jquery.min.js"></script>
   <script src="/assets/script.js"></script>
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -22,15 +23,8 @@
    !-->
   {% endcomment %}
   
-  <section class='top-navbar'>
-    <div class='logo'>
-      <div class='type'>
-        <img src='/assets/logo/light-type.svg'>
-      </div>
-      <div class='symbol'>
-        <img src='/assets/logo/light-symbol.svg'>
-      </div>
-    </div>
+  <section class='fixed-nav'>
+    <div class='symbol'></div>
   </section>
 
   {% comment %}
@@ -39,7 +33,7 @@
    !-->
   {% endcomment %}
   
-  <section class='title-section'>
+  <section class='title-section' data-midnight='invisible'>
     <div class='text wow fadeIn' data-wow-delay='500ms'>
       <h5>Let me tell you something.</h5>
 
@@ -48,21 +42,22 @@
       </h1>
     </div>
 
-    <svg id='illo-screens' viewBox="0 0 974 319"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <svg id='illo-screens' viewBox="0 0 974 319" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
       <g class='s1'>
         {% include illo-screens.html %}
       </g>
     </svg>
 
-    <div class='type wow fadeIn' data-wow-delay='1000ms'>
-      <img src='/assets/logo/light-type.svg'>
+    <div class='logo wow fadeIn' data-wow-delay='1000ms'>
+      <img class='symbol' src='/assets/logo/light-symbol.svg'>
+      <img class='type' src='/assets/logo/light-type.svg'>
     </div>
 
-    <div class='actions wow fadeIn' data-wow-delay='1000ms'>
-      <a class='button'>See our work</a>
-    </div>
+    <!-- <div class='actions wow fadeIn' data-wow-delay='1000ms'> -->
+    <!--   <a class='button'>See our work</a> -->
+    <!-- </div> -->
 
-    <div class='wow' data-wow-offset="500">
+    <div class='wow' data-wow-offset="500" data-wow-delay='1500ms'>
       <svg id='illo-screens' viewBox="0 0 974 319"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
         <g class='s2'>
           {% include illo-screens.html %}
@@ -119,7 +114,7 @@
    !-->
   {% endcomment %} 
 
-  <section class='process-section'>
+  <section class='process-section' data-midnight='dark'>
     <div class='bg'>
       <svg viewBox="0 0 500 200" id='illo-halo'>
         {% include illo-halo.html %}
@@ -245,7 +240,7 @@
    !-->
   {% endcomment %} 
 
-  <section class='colophon-section'>
+  <section class='colophon-section' data-midnight='invisible'>
     .
   </section>
 

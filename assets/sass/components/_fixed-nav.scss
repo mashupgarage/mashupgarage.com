@@ -1,0 +1,39 @@
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 140px;
+  z-index: 20;
+
+  $size: 70px;
+
+  /* .fixed-nav > .midnightHeader.default > .midnightInner > .symobl */
+  .symbol {
+    position: relative;
+    z-index: 40;
+
+    margin-left: 40px;
+    margin-top: 40px;
+
+    width: $size + 10px;
+    height: $size + 10px;
+
+    background-position: 5px 5px;
+    background-size: $size $size;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+
+  .default .symbol {
+    background-image: url('/assets/logo/light-symbol.svg');
+    background-color: white;
+  }
+
+  .dark .symbol {
+    background-image: url('/assets/logo/dark-symbol.svg');
+  }
+
+  .invisible .symbol {
+    opacity: 0;
+  }
+}
