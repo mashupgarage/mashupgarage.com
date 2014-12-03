@@ -1,10 +1,11 @@
 .process-section {
-  $darkbg: saturate(darken($gray, 40%), 15%);
+  // $darkbg: saturate(darken($gray, 40%), 15%);
+  $darkbg: darken($hotred, 19%);
 
   & {
     position: relative;
     background: $darkbg;
-    color: saturate(darken($gray, 10%), 15%);
+    color: lighten($darkbg, 50%);
   }
 
   h2 {
