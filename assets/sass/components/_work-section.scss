@@ -44,7 +44,59 @@
     width: 100%;
     height: 400px;
     display: block;
+    position: relative;
+    overflow: hidden;
+  }
+}
 
-    background: url('/assets/screenshots/tbase.png') center 0 / 1300px (1300px/(1229/610)) no-repeat;
+
+.img-1, .img-2 {
+  position: absolute;
+}
+
+@mixin tablet-perspective(
+  $x, $y, $z,
+  $bezel-width: 50px,
+  $bezel: #fafafa,
+  $edge: darken($bezel, 40%),
+  $shadow: rgb(0, 30, 50),
+  $shadow-strength: 0.8
+) {
+  transform: perspective(10000px) rotateY(25deg) rotateX(50deg) rotateZ(-25deg) scale(1) translate3d($x, $y, $z);
+  box-shadow:
+    -1px 2px 2px 1px mix($edge, $bezel, 50%),
+     -1px 1px 0px $edge,
+    -2px 2px 0px $edge,
+    -3px 3px 0px $edge,
+    -4px 4px 0px $edge,
+    -5px 5px 0px $edge,
+    -6px 6px 0px $edge,
+    -7px 7px 0px $edge,
+    -8px 8px 0px $edge,
+    -9px 9px 0px $edge,
+    -10px 10px 0px $edge,
+    -11px 11px 0px $edge,
+    -$z $z $z rgba($shadow, $shadow-strength);
+  border-radius: $bezel-width * 4/5;
+  border: solid $bezel-width $bezel;
+}
+
+.tbase {
+  $spacegray: saturate(darken($gray, 30%), 10%);
+
+  .img-1 {
+    width: 800px;
+    @include tablet-perspective(150px, 50px, 40px, 32px);
+  }
+
+  .img-2 {
+    width: 400px;
+    @include tablet-perspective(650px, 470px, 100px, 22px);
+    transition: all 100ms linear;
+  }
+
+  .img-2:hover {
+    @include tablet-perspective(650px, 470px, 110px, 22px);
+    opacity: 1;
   }
 }
