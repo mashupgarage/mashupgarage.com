@@ -40,25 +40,3 @@
     border-bottom: 0;
   }
 }
-
-.fleuron {
-  margin: 40px auto;
-  text-align: center;
-
-  &:before, &:after {
-    content: '';
-    display: inline-block;
-    width: 40px;
-    height: 1px;
-    background: #ddd;
-    vertical-align: middle;
-    margin: 0 20px;
-  }
-
-  i:before {
-    display: inline-block;
-    @include ion-icon('ios7-infinite');
-    font-size: 32px;
-    color: $cyan;
-  }
-}

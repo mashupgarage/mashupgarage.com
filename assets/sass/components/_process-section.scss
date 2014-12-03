@@ -1,7 +1,9 @@
 .process-section {
+  $darkbg: saturate(darken($gray, 40%), 15%);
+
   & {
     position: relative;
-    background: darken($gray, 40%);
+    background: $darkbg;
     color: $gray;
   }
 
@@ -28,7 +30,7 @@
     margin: 0 auto 30px auto;
     border: solid 4px white;
     border-radius: 50%;
-    background: darken($gray, 40%);
+    background: $darkbg;
   }
 
   svg {
@@ -42,7 +44,7 @@
 
   .container {
     position: relative;
-    padding: 150px 0;
+    padding: 175px 0;
     z-index: 2;
   }
 }
