@@ -6,12 +6,15 @@
 
 @mixin italic-type {
   font-family: 'adelle-sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
 }
 
 @mixin sans-type {
-  font-family: 'aktiv-grotesk-std', sans-serif;
+  // font-family: 'aktiv-grotesk-std', sans-serif;
+  // font-weight: 400;
+  // font-style: normal;
+  font-family: 'adelle-sans', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
