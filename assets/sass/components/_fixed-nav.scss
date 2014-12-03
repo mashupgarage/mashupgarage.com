@@ -3,7 +3,6 @@
   top: 0;
   left: 0;
   height: 140px;
-  z-index: 20;
 
   $size: 70px;
 
@@ -31,6 +30,10 @@
 
   .dark .symbol {
     background-image: url('/assets/logo/dark-symbol.svg');
+  }
+
+  .dark {
+    z-index: 1;
   }
 
   .invisible .symbol {
