@@ -1,10 +1,10 @@
 .process-section {
-  background: darken($gray, 40%);
-  box-shadow: 0 -50px rgba(#1DD1E4, 0.4);
-  padding: 150px 0;
-  color: $gray;
-
-  margin-bottom: 500px;
+  & {
+    position: relative;
+    background: darken($gray, 40%);
+    box-shadow: 0 -50px rgba($hotcyan, 0.2);
+    color: $gray;
+  }
 
   h2 {
     color: white;
@@ -17,7 +17,7 @@
   }
 
   p {
-    font-size: 0.85em;
+    font-size: 0.9em;
     @include italic-type;
     @include antialias;
   }
@@ -25,9 +25,34 @@
   i {
     display: block;
     width: 160px;
-    height: 80px;
+    height: 160px;
     margin: 0 auto 30px auto;
     border: solid 4px white;
-    border-radius: 64px;
+    border-radius: 50%;
+    background: darken($gray, 40%);
+  }
+
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    padding: 150px 0;
+    z-index: 2;
+  }
+}
+
+#illo-halo {
+  circle {
+    fill: none;
+    stroke: #444;
+    stroke-width: 0.3px;
+    opacity: 0.3;
   }
 }

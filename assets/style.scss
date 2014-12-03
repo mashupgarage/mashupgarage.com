@@ -7,6 +7,7 @@ $cyan: #9AD3DB;
 $red: #d99292;
 $gray: #789;
 $hotred: #f11;
+$hotcyan: #1dd1e4;
 
 @import url('http://brick.a.ssl.fastly.net/Clear+Sans:400,700');
 
@@ -18,10 +19,12 @@ $hotred: #f11;
 @import './base/antialias';
 @import './base/base';
 
+@import './components/container';
 @import './components/illo-screens';
 @import './components/top-navbar';
 @import './components/title-section';
 @import './components/process-section';
 @import './components/prologue-section';
+@import './components/who-section';
 
 @include ion-font;

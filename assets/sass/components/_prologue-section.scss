@@ -21,14 +21,9 @@
     @include caps-type;
 
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
     color: $blacker;
     margin: 0 auto -20px auto;
   }
-}
-
-.container.-slim {
-  max-width: 600px;
-  margin: 0 auto;
 }

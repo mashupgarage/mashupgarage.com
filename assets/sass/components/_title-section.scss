@@ -8,6 +8,8 @@
 
     padding-bottom: $size / $ratio;
     position: relative;
+
+    background: linear-gradient(170deg, #fff 90%, mix($hotcyan, white, 5%));
   }
 
   h5 {
@@ -32,7 +34,9 @@
     margin-top: 220px;
     margin-bottom: 10px;
     padding: 30px;
-    background: rgba(white, 0.97);
+
+    background: white;
+    box-shadow: 0 0 40px 20px white;
 
     position: relative;
     z-index: 20;

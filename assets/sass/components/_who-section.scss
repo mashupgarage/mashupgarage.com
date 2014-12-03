@@ -1,0 +1,14 @@
+.who-section {
+  background: #eee;
+
+  .box {
+    background: white;
+    padding: 40px 40px 300px 40px;
+    box-shadow: 0 10px 50px rgba(black, 0.05);
+    margin-top: -20px;
+
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+}
