@@ -5,7 +5,7 @@ $blacker: #111;
 $black: lighten(#585862, 10%);
 $cyan: #9AD3DB;
 $red: #d99292;
-$gray: #789;
+$gray: desaturate(#789, 25%);
 $hotred: #f11;
 $hotcyan: #1dd1e4;
 
@@ -26,5 +26,6 @@ $hotcyan: #1dd1e4;
 @import './components/process-section';
 @import './components/prologue-section';
 @import './components/who-section';
+@import './components/work-section';
 
 @include ion-font;

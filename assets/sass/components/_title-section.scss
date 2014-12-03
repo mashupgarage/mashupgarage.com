@@ -8,8 +8,6 @@
 
     padding-bottom: $size / $ratio;
     position: relative;
-
-    background: linear-gradient(170deg, #fff 90%, mix($hotcyan, white, 5%));
   }
 
   h5 {
@@ -25,7 +23,7 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7em;
     line-height: 1.4;
     color: $blacker;
   }
@@ -70,10 +68,11 @@
     bottom: 300px;
 
     $ratio: 135/73;
-    width: 100px;
-    height: 100px / $ratio;
+    $size: 90px;
+    width: $size;
+    height: $size / $ratio;
 
-    margin-left: -50px;
+    margin-left: -0.5 * $size;
   }
 
   .actions {
