@@ -12,28 +12,28 @@
   .s2 path,
   .s2 circle {
     stroke: $cyan;
-    animation: lol 7000ms ease infinite normal;
-    animation-iteration-count: $count;
+    @include animation(lol 7000ms ease infinite normal);
+    @include animation-iteration-count($count);
   }
 
   .s3 rect,
   .s3 path,
   .s3 circle {
     stroke: $red;
-    animation: lol2 11000ms ease infinite normal;
-    animation-iteration-count: $count;
+    @include animation(lol2 11000ms ease infinite normal);
+    @include animation-iteration-count($count);
   }
 
   .s4 rect,
   .s4 path,
   .s4 circle {
     stroke: $gray;
-    animation: lol2 16000ms ease infinite normal;
-    animation-iteration-count: $count;
+    @include animation(lol2 16000ms ease infinite normal);
+    @include animation-iteration-count($count);
   }
 }
 
-@keyframes lol {
+@include keyframes(lol) {
   0% {
     stroke-dashoffset: 0%;
     stroke-dasharray: 0% 100%;
@@ -48,7 +48,7 @@
   }
 }
 
-@keyframes lol2 {
+@include keyframes(lol2) {
   0% {
     stroke-dashoffset: 0%;
     stroke-dasharray: 0% 100%;

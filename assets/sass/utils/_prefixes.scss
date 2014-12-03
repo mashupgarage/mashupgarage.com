@@ -1,0 +1,24 @@
+@mixin keyframes($name) {
+  @-webkit-keyframes $name {
+    @content;
+  }
+  @keyframes $name {
+    @content;
+  }
+}
+
+@mixin transform($value) {
+  -webkit-transform: $value;
+  -ms-transform: $value;
+  transform: $value;
+}
+
+@mixin animation($value) {
+  -webkit-animation: $value;
+  animation: $value;
+}
+
+@mixin animation-iteration-count($value) {
+  -webkit-animation-iteration-count: $value;
+  animation-iteration-count: $value;
+}
