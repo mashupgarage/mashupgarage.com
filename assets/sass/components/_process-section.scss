@@ -1,6 +1,6 @@
 .process-section {
   // $darkbg: saturate(darken($gray, 40%), 15%);
-  $darkbg: darken($hotred, 19%);
+  $darkbg: darken($hotred, 15%);
 
   & {
     position: relative;
@@ -53,6 +53,6 @@
     fill: none;
     stroke: #444;
     stroke-width: 0.3px;
-    opacity: 0.3;
+    opacity: 0.1;
   }
 }

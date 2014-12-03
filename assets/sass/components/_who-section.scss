@@ -3,7 +3,7 @@
 
   .box {
     background: white;
-    padding: 40px 0;
+    padding: 60px 0 40px 0;
     box-shadow: 0 10px 50px rgba($cyan, 0.09);
 
     margin-top: -10px;
@@ -19,12 +19,12 @@
   .heading {
     @include caps-type;
     color: $blacker;
+    font-size: 1.1em;
   }
 
   .person-item {
     width: 50%;
     padding: 40px;
-    border-bottom: solid 3px mix($hotcyan, white, 20%);
   }
 
   .person-item.-left {
@@ -35,7 +35,7 @@
     float: right;
   }
 
-  .person-item.-left + .-right {
+  .heading + .-left + .-right {
     margin-top: 100px;
   }
 }
@@ -71,5 +71,38 @@
   .bio {
     margin-top: 20px;
     font-size: 0.9em;
+  }
+
+  .avatar {
+    display: block;
+    background: #eee;
+    box-shadow:
+      -4px 4px rgba($hotred, 0.4),
+      8px -8px rgba($cyan, 0.4);
+  }
+
+  .avatar,
+  .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+  }
+
+  &.-right {
+    padding-right: 100px;
+  }
+
+  &.-right .avatar {
+    float: right;
+    margin-right: -150px;
+  }
+
+  &.-left {
+    padding-left: 100px;
+  }
+
+  &.-left .avatar {
+    float: left;
+    margin-left: -150px;
   }
 }

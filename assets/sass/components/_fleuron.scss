@@ -1,6 +1,9 @@
 .fleuron {
-  margin: 40px auto;
-  text-align: center;
+  & {
+    margin: 40px auto;
+    text-align: center;
+    clear: both;
+  }
 
   &:before, &:after {
     content: '';
