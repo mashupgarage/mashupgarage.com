@@ -32,6 +32,7 @@ meta:
 #  https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - README.md
+  - CNAME
   - vendor
   - Gemfile
   - Gemfile.lock
