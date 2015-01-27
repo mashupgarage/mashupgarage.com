@@ -17,7 +17,7 @@
 
   i:before {
     display: inline-block;
-    @include ion-icon('ios7-infinite');
+    @include ion-icon('ios-infinite');
     font-size: 32px;
     color: $cyan;
   }

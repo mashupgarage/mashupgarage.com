@@ -8,6 +8,7 @@
 
   .container {
     padding-top: 100px;
+    position: relative;
   }
 
   .text {
@@ -29,16 +30,6 @@
     font-size: 0.9em;
   }
 
-  img {
-    display: block;
-    max-width: 1000px;
-    margin: 50px auto 0 auto;
-    box-shadow: 0 0 20px rgba($cyan, 0.2);
-    border: solid 15px white;
-    border-radius: 1px;
-    border-bottom: 0;
-  }
-
   .tbase {
     margin-top: 60px;
     width: 100%;
@@ -46,6 +37,12 @@
     display: block;
     position: relative;
     overflow: hidden;
+  }
+
+  .project-popup {
+    position: absolute;
+    left: 65%;
+    top: -10px;
   }
 }
 
@@ -84,6 +81,11 @@
 .tbase {
   $spacegray: saturate(darken($gray, 30%), 10%);
 
+  img {
+    max-width: 1000px;
+    margin: 50px auto 0 auto;
+  }
+
   .img-1 {
     width: 800px;
     @include tablet-perspective(150px, 50px, 40px, 32px);
@@ -95,8 +97,106 @@
     transition: all 100ms linear;
   }
 
-  .img-2:hover {
-    @include tablet-perspective(650px, 470px, 110px, 22px);
-    opacity: 1;
+  // .img-2:hover {
+  //   @include tablet-perspective(650px, 470px, 110px, 22px);
+  //   opacity: 1;
+  // }
+}
+
+.project-popup {
+  & {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    color: $gray;
+
+    position: relative;
+    padding-bottom: 100px;
+  }
+
+  .box {
+    background: #fefefe;
+    box-shadow: 0 1px 2px rgba(black, 0.1);
+    padding: 20px;
+    width: 300px;
+
+    position: relative;
+    z-index: 1;
+
+    @include clearfix;
+  }
+
+  .brand {
+    padding: 15px 0 25px 0;
+  }
+
+  .brand img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .actions {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .stem {
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+
+    height: 102px;
+    width: 2px;
+    background: $hotcyan;
+    border-radius: 2px;
+  }
+
+  .stem:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 30px;
+    background: rgba($cyan, 0.07);
+    box-shadow: 0 2px 4px rgba(black, 0.1);
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: -15px;
+    left: -30px;
+  }
+}
+
+.visit-button {
+  & {
+    color: $blacker;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    transition: all 100ms linear;
+  }
+
+  &:after {
+    @include ion-icon('log-out');
+    font-size: 32px;
+    color: $gray;
+    margin-left: 15px;
+  }
+
+  &:hover {
+    & {
+      color: $gray;
+    }
+
+    &:after {
+      color: $hotred;
+    }
+  }
+
+  & {
+    @include heavy-type;
   }
 }
