@@ -3,7 +3,7 @@ $count: 2;
 
 #illo-screens {
   rect, path, circle {
-    stroke: #eee;
+    stroke: #fcfcfc;
     stroke-width: 1px;
     fill: none;
   }
@@ -20,7 +20,7 @@ $count: 2;
   .s2 rect,
   .s2 path,
   .s2 circle {
-    stroke: $cyan;
+    stroke: mix($cyan, white, 25%);
     stroke-dasharray: 10% 90%;
     @include animation(lol 7 * $speed ease $count normal);
   }
@@ -28,7 +28,7 @@ $count: 2;
   .s3 rect,
   .s3 path,
   .s3 circle {
-    stroke: $red;
+    stroke: mix($red, white, 50%);
     stroke-dasharray: 0% 100%;
     @include animation(lol 11 * $speed ease $count normal);
   }
