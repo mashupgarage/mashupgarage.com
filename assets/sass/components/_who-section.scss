@@ -43,10 +43,18 @@
     @include italic-type;
     font-size: 2em;
     text-align: center;
-    margin: 150px auto;
+    margin: 0 auto;
     color: $hotred;
     width: 60%;
     line-height: 1.4;
+  }
+
+  .actions {
+    margin-top: 30px;
+  }
+
+  .lolspacer {
+    height: 150px;
   }
 }
 
@@ -117,5 +125,38 @@
   &.-left .avatar {
     float: left;
     margin-left: -150px;
+  }
+}
+
+.button-rounded {
+  background: white;
+  border: solid 2px $hotred;
+  display: inline-block;
+  border-radius: 2px;
+  @include caps-type;
+  color: $blacker;
+
+  padding: 7px 20px;
+  text-decoration: none;
+
+  transition: all 100ms linear;
+
+  &:after {
+    @include ion-icon('android-arrow-dropright-circle');
+    margin-left: 15px;
+    font-size: 16px;
+
+    position: relative;
+    top: -1px;
+  }
+
+  &:hover, &:focus {
+    background: $blacker;
+    color: white;
+    border-color: transparent;
+
+    &:after {
+      color: $hotred;
+    }
   }
 }
