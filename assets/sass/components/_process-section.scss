@@ -99,7 +99,7 @@
     @include ion-icon('ios-lightbulb-outline');
     color: $hotred;
     color: white;
-    text-shadow: 4px 4px 0 $hotred, -4px 4px 0 rgba(darken($hotcyan, 10%), 0.1);
+    text-shadow: 4px 4px 0 $hotred;
     font-size: 72px;
   }
 
