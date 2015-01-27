@@ -40,6 +40,23 @@
     color: white;
   }
 
+  .email:before {
+    @include ion-icon('ios-email-outline');
+    font-size: 16px;
+    margin-right: 8px;
+    color: $hotred;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover, a:focus {
+    color: white;
+    box-shadow: 0 1px 0 rgba(white, 0.05);
+  }
+
   .contact em {
     margin-left: 5px;
   }
