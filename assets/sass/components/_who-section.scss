@@ -38,6 +38,16 @@
   .heading + .-left + .-right {
     margin-top: 100px;
   }
+
+  .pullquote {
+    @include italic-type;
+    font-size: 2em;
+    text-align: center;
+    margin: 150px auto;
+    color: $hotred;
+    width: 60%;
+    line-height: 1.4;
+  }
 }
 
 .person-item {

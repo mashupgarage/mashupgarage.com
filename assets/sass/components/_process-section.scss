@@ -23,7 +23,8 @@
   h2 {
     color: white;
     @include heavy-type;
-    font-size: 1.4em;
+    font-size: 1.7em;
+    margin-bottom: 3px;
   }
 
   h2, p {
@@ -34,14 +35,10 @@
     font-size: 0.9em;
   }
 
-  i {
-    display: block;
-    width: 160px;
-    height: 160px;
+  .illo-icons {
+    position: relative;
     margin: 0 auto 30px auto;
-    border: solid 4px white;
-    border-radius: 50%;
-    background: $darkbg;
+    height: 160px;
   }
 
   svg {
@@ -55,8 +52,19 @@
 
   .container {
     position: relative;
-    padding: 175px 0;
+    padding: 200px 0 100px 0;
     z-index: 2;
+  }
+
+  a, a:visited {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover, a:focus {
+    color: white;
+    box-shadow: inset 0 -1px rgba(white, 0.3);
   }
 }
 
@@ -67,4 +75,94 @@
     stroke-width: 0.3px;
     opacity: 0.1;
   }
+}
+
+.illo-icons {
+  $darkbg: darken($hotred, 15%);
+
+  .center {
+    display: block;
+    width: 160px;
+    height: 160px;
+
+    line-height: 160px - 8px;
+    text-align: center;
+
+    margin: 0 auto;
+    border: solid 4px white;
+    border-radius: 50%;
+    background: $darkbg;
+  }
+
+  .center:before {
+    // @include ion-icon('ios-flask-outline');
+    @include ion-icon('ios-lightbulb-outline');
+    color: $hotred;
+    color: white;
+    text-shadow: 4px 4px 0 $hotred, -4px 4px 0 rgba(darken($hotcyan, 10%), 0.1);
+    font-size: 72px;
+  }
+
+  .stack {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 80px;
+    left: 50%;
+
+    margin-left: -80px;
+    margin-top: -80px;
+
+
+    z-index: 2;
+  }
+
+  .line {
+    display: block;
+    position: absolute;
+    top: 80px - 150px - 100px;
+    left: 50%;
+
+    height: 150px;
+    width: 1px;
+    border-left: dashed 1px rgba($red, 0.8);
+  }
+
+  @mixin rotate-item($theta, $radius, $offset) {
+    margin-top:  $offset - $radius * cos($theta);
+    margin-left: $offset - $radius * sin($theta);
+  }
+
+  @mixin rotate-icon($theta) {
+    @include rotate-item($theta, 180px, -80px);
+  }
+
+  @mixin rotate-line($theta) {
+    transform: rotate($theta);
+    transform-origin: 0 250px;
+  }
+
+  .line.-l1 { @include rotate-line(45deg * 9 + 22.5deg); }
+  .line.-l2 { @include rotate-line(45deg * 8 + 22.5deg); }
+  .line.-l3 { @include rotate-line(45deg * 7 + 22.5deg); }
+  .line.-l4 { @include rotate-line(45deg * 6 + 22.5deg); }
+
+  .stack.-s1 { @include rotate-icon(45deg * 10); }
+  .stack.-s2 { @include rotate-icon(45deg * 9); }
+  .stack.-s3 { @include rotate-icon(45deg * 8); }
+  .stack.-s4 { @include rotate-icon(45deg * 7); }
+  .stack.-s5 { @include rotate-icon(45deg * 6); }
+
+  .stack.-s1 { 
+    background: url('images/stack-ruby.png') center center / 67px 53px no-repeat; }
+  .stack.-s2 { 
+    background: url('images/stack-git.png') center center / 40px 55px no-repeat; }
+  .stack.-s3 { 
+    background: url('images/stack-ios.png') center center / 41px 69px no-repeat; }
+  .stack.-s4 { 
+    background: url('images/stack-js.png') center center / 54px 58px no-repeat; }
+  .stack.-s5 { 
+    background: url('images/stack-rails.png') center center / 91px 54px no-repeat; }
 }
