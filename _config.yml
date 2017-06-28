@@ -1,5 +1,5 @@
 # files
-layouts: ./_/layouts
+layouts_dir: ./_/layouts
 destination: ./_/site
 sass:
   sass_dir: ./assets/sass
@@ -11,7 +11,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   parse_block_html: true
-  use_coderay: true
+  enable_coderay: true
 
   coderay:
     coderay_line_numbers: nil
